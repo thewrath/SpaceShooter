@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{7A470273-FE76-474B-8C10-62587EE9CA9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{667134ED-A520-7341-B623-A5AFA4614639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Scroll">
+      <UniqueIdentifier>{4D719BC1-C93D-404F-8EB4-7B56691ABF5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inline">
+      <UniqueIdentifier>{47756AB7-D437-9842-8311-10987A90AC78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{081E3507-874E-A14E-899E-E96A69CD2710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\HUD">
+      <UniqueIdentifier>{e765de90-0606-4deb-a3a1-f134e9c62a72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\HUD">
+      <UniqueIdentifier>{4dd03a2b-7e9b-4b9a-a2d1-d49bd657f450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Player">
+      <UniqueIdentifier>{3aedd797-3520-416a-a1b6-2d4e4264c324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Player">
+      <UniqueIdentifier>{ff489f29-2f3b-4dab-87b2-01d195a95435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\HUD\Player">
+      <UniqueIdentifier>{31af94d5-2d9e-4e9d-9f5a-f9a4ec354cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\HUD\Player">
+      <UniqueIdentifier>{ef10b5fd-6012-49a9-a597-92246af66714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Environment">
+      <UniqueIdentifier>{53c4cd43-0f7c-4849-8fa1-254a67500f0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Environment">
+      <UniqueIdentifier>{4c0a39db-1f87-415f-b720-36ec35f7ae21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\HUD\MiniMap">
+      <UniqueIdentifier>{fd456654-35bd-4f50-bdbb-c8d39491c2d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\HUD\MiniMap">
+      <UniqueIdentifier>{a5ae9a86-f640-4bda-b9b1-5bec7cfa932e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inline\Scroll">
+      <UniqueIdentifier>{fc0b4707-f900-45d8-b536-73c31efbfad0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\data\config\CreationTemplate.ini">
+      <Filter>config</Filter>
+    </None>
+    <None Include="..\..\..\data\config\SettingsTemplate.ini">
+      <Filter>config</Filter>
+    </None>
+    <None Include="..\..\..\data\config\SpaceShooter.ini">
+      <Filter>config</Filter>
+    </None>
+    <None Include="..\..\..\data\config\SpaceShooterd.ini">
+      <Filter>config</Filter>
+    </None>
+    <None Include="..\..\..\data\config\SpaceShooterp.ini">
+      <Filter>config</Filter>
+    </None>
+    <None Include="..\..\..\include\Scroll\Scroll.inl">
+      <Filter>inline\Scroll</Filter>
+    </None>
+    <None Include="..\..\..\include\Scroll\ScrollBase.inl">
+      <Filter>inline\Scroll</Filter>
+    </None>
+    <None Include="..\..\..\include\Scroll\ScrollEd.inl">
+      <Filter>inline\Scroll</Filter>
+    </None>
+    <None Include="..\..\..\include\Scroll\ScrollObject.inl">
+      <Filter>inline\Scroll</Filter>
+    </None>
+    <None Include="..\..\..\include\SpaceShooter.inl">
+      <Filter>inline</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\SpaceShooter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Scroll\Scroll.h">
+      <Filter>include\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Scroll\ScrollBase.h">
+      <Filter>include\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Scroll\ScrollEd.h">
+      <Filter>include\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Scroll\ScrollObject.h">
+      <Filter>include\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\HUDButton.h">
+      <Filter>include\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Scene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Reactor.h">
+      <Filter>include\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\SpaceShip.h">
+      <Filter>include\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\HUDReactorButton.h">
+      <Filter>include\HUD\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\ShipControlHUD.h">
+      <Filter>include\HUD\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Planet.h">
+      <Filter>include\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\MiniMapPointer.h">
+      <Filter>include\HUD\MiniMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Tanker.h">
+      <Filter>include\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\SpaceShooter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\HUDButton.cpp">
+      <Filter>src\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Scene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Reactor.cpp">
+      <Filter>src\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SpaceShip.cpp">
+      <Filter>src\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\HUDReactorButton.cpp">
+      <Filter>src\HUD\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ShipControlHUD.cpp">
+      <Filter>src\HUD\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Planet.cpp">
+      <Filter>src\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MiniMapPointer.cpp">
+      <Filter>src\HUD\MiniMap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Tanker.cpp">
+      <Filter>src\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
